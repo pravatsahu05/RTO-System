@@ -7,31 +7,31 @@ This system digitizes the Regional Transport Office (RTO) workflow with authenti
 
 ## 📌 Features
 
-### 🔐 Authentication & Security
+## 🔐 Authentication & Security
 - Role-based login (Admin / User / Inspector)
 - Bcrypt password hashing
 - Session-based authentication
 - Input sanitization and validation
 
-### 🚘 Vehicle Registration
+## 🚘 Vehicle Registration
 - Unique engine & chassis number validation
 - Auto-generated registration numbers
 - Multi-section vehicle registration form
 - Status lifecycle: Pending → Verified → Approved / Rejected
 
-### 🧑‍💼 Admin Controls
+## 🧑‍💼 Admin Controls
 - Approve, reject, or verify registrations
 - View recent activities
 - Monitor approval and rejection metrics
 
-### 📊 Analytics Dashboard
+## 📊 Analytics Dashboard
 - Monthly registration trends
 - Vehicle type distribution
 - Fuel type analysis
 - Approval rate gauge
 - Exportable reports
 
-### 🎨 UI & UX
+## 🎨 UI & UX
 - Dark theme with custom CSS
 - Smooth animations
 - Responsive layout
@@ -54,17 +54,17 @@ This system digitizes the Regional Transport Office (RTO) workflow with authenti
 
 ## 🧑‍💻 User Roles
 
-### 👤 User
+## 👤 User
 - Submit vehicle registrations
 - Track application status
 - Search and export applications
 
-### 🛡️ Admin
+## 🛡️ Admin
 - Approve / reject registrations
 - Verify applications
 - Access analytics dashboard
 
-### 🔍 Inspector
+## 🔍 Inspector
 - Vehicle verification workflow (extensible)
 
 ---
@@ -94,15 +94,15 @@ RTO-Vehicle-Registration-System/
 
 ## ⚙️ Installation & Setup
 
-### 1️⃣ Clone Repository
+## 1️⃣ Clone Repository
 git clone https://github.com/your-username/rto-vehicle-registration-system.git
 
 
-### 2️⃣ Install Dependencies
+## 2️⃣ Install Dependencies
 pip install streamlit pymysql pandas plotly bcrypt
 
 
-### 3️⃣ Create Database
+## 3️⃣ Create Database
 
 Update database credentials in `app.py`:
 ```python
@@ -111,16 +111,5 @@ DB_USER = "root"
 DB_PASSWORD = "your_password"
 DB_NAME = "rto_vehicle_system"
 
-### 4️⃣ Run Application
+## 4️⃣ Run Application
 streamlit run app.py
-
-
----
-
-If you want next:
-✅ `requirements.txt` file  
-✅ Resume bullets (ATS-friendly)  
-✅ Project abstract (college submission)  
-✅ GitHub badges & screenshots section  
-
-Just tell me 🔥
