@@ -5,7 +5,7 @@ This system digitizes the Regional Transport Office (RTO) workflow with authenti
 
 ---
 
-## 📌 Features
+# 📌 Features
 
 ## 🔐 Authentication & Security
 - Role-based login (Admin / User / Inspector)
@@ -69,7 +69,7 @@ This system digitizes the Regional Transport Office (RTO) workflow with authenti
 
 ---
 
-## 🗄️ Database Schema
+# 🗄️ Database Schema
 
 **Core Tables**
 - users
