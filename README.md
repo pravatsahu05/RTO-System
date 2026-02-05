@@ -12,7 +12,7 @@ This system digitizes the Regional Transport Office (RTO) workflow with authenti
 - Bcrypt password hashing
 - Session-based authentication
 - Input sanitization and validation
-
+- 
 ## 🚘 Vehicle Registration
 - Unique engine & chassis number validation
 - Auto-generated registration numbers
